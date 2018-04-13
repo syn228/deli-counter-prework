@@ -3,7 +3,7 @@ katz_deli = []
 def line(name)
   if katz_deli.length == 0
     puts "The line is currently empty."
-  else
+  else curretLine
   counter = 0
   emptyArray = katz_deli.push(name)  
     while counter < emptyArray.length
