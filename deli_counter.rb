@@ -16,7 +16,7 @@ def take_a_number(katz_deli, name)
   emptyArray = katz_deli.push(name)
   counter = 0
   while counter < emptyArray.length
-  puts emptyArray.push("Welcome, #{name}. You are number #{emptyArray.length} in line.")
+  puts "Welcome, #{name}. You are number #{emptyArray.length} in line."
   counter += 1
 end
 end
