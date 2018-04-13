@@ -13,12 +13,7 @@ def line(name)
 end
 
 def take_a_number(katz_deli, name)
-  emptyArray = katz_deli.push(name)
-  counter = 0
-  while counter < emptyArray.length
-  puts "Welcome, #{name}. You are number #{emptyArray.length} in line."
-  counter += 1
-end
+  katz_deli.push(name)
 end
   
 def now_serving(name)
