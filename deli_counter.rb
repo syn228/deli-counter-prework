@@ -25,10 +25,10 @@ def now_serving(name)
   if name.length == 0
     puts "There is nobody waiting to be served!"
   end
-  emptyArray = katz_deli.push(name)
+  emptyArray = katz_deli.shift(name)
   counter = 0
   while counter < emptyArray.length
-  puts "Currently serving #{katz_deli.shift(name)}"
+  puts "Currently serving #{emptyArray[counter]}"
   counter += 1
 end
   
