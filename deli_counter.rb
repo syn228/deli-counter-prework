@@ -5,11 +5,7 @@ def line(name)
     puts "The line is currently empty."
   else 
     curretLine = "The line is currently:"
-  counter = 0
-  emptyArray = katz_deli.push(name)  
-    while counter < emptyArray.length
-    puts "The line is currently: #{counter +1}. #{emptyArray[counter]}"
-    counter += 1
+  
   end
 end
 
