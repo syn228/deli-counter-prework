@@ -22,7 +22,7 @@ end
 end
   
 def now_serving(name)
-  if katz_deli.length == 0
+  if name.length == 0
     puts "There is nobody waiting to be served!"
   end
   emptyArray = katz_deli.push(name)
